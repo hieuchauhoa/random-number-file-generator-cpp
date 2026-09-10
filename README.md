@@ -1,25 +1,19 @@
-# Tạo file ramdom số (file text hoặc binary)
+# Random Number File Generator (C++)
 
-![](<https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/800px-ISO_C%2B%2B_Logo.svg.png>)
+Chương trình C++ sinh một lượng lớn số ngẫu nhiên, ghi ra file dạng text hoặc binary, kèm chương trình đọc lại file binary.
 
-![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master) ![](https://img.shields.io/github/tag/pandao/editor.md.svg)
+## Chạy thử
 
-## Tác giả
-
-| STT |    MSSV    | Họ và tên             |
-| :-: | :--------: | --------------------- |
-|  1  | 3119410439 | Minh Hiếu Calan Tog   |
-
-
-## Hướng dẫn cài đặt
-
-```
-1. Chạy file "rand.exe" để random số.
-
+```bash
+g++ rand.cpp -o rand
+./rand
 ```
 
-```
-2. Nếu là file binary, sau khi random xong, muốn đọc được file cần chạy file "doc_file_binary.exe"
+Nếu ghi ra file binary, đọc lại bằng:
+
+```bash
+g++ doc_file_binary.cpp -o doc_file_binary
+./doc_file_binary
 ```
 
 ## Một số giao diện của chương trình
@@ -29,3 +23,7 @@
 ![img4.png](imgReadme/img4.png)
 ![img5.png](imgReadme/img5.png)
 ![img6.png](imgReadme/img6.png)
+
+## Tác giả
+
+Minh Hiếu Calan Tog.
